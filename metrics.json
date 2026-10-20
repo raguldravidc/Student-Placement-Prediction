@@ -1,0 +1,58 @@
+{
+  "dataset_rows_after_target_cleaning": 600,
+  "train_rows": 480,
+  "test_rows": 120,
+  "accuracy": 0.9083333333333333,
+  "precision": 0.8870967741935484,
+  "recall": 0.9322033898305084,
+  "f1_score": 0.9090909090909091,
+  "roc_auc": 0.9713809391497639,
+  "confusion_matrix": [
+    [
+      54,
+      7
+    ],
+    [
+      4,
+      55
+    ]
+  ],
+  "classification_report": {
+    "Not Placed": {
+      "precision": 0.9310344827586207,
+      "recall": 0.8852459016393442,
+      "f1-score": 0.907563025210084,
+      "support": 61.0
+    },
+    "Placed": {
+      "precision": 0.8870967741935484,
+      "recall": 0.9322033898305084,
+      "f1-score": 0.9090909090909091,
+      "support": 59.0
+    },
+    "accuracy": 0.9083333333333333,
+    "macro avg": {
+      "precision": 0.9090656284760845,
+      "recall": 0.9087246457349263,
+      "f1-score": 0.9083269671504965,
+      "support": 120.0
+    },
+    "weighted avg": {
+      "precision": 0.9094317760474601,
+      "recall": 0.9083333333333333,
+      "f1-score": 0.9083142347848231,
+      "support": 120.0
+    }
+  },
+  "features": [
+    "CGPA",
+    "Aptitude_Score",
+    "Technical_Score",
+    "Communication_Score",
+    "Internships",
+    "Projects",
+    "Backlogs"
+  ],
+  "target": "Placed",
+  "note": "If using the bundled dataset.csv, these are synthetic demonstration results, not real placement evidence."
+}
